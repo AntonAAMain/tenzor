@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+  width: 1920px;
+  height: 818px;
+  padding-top: 32px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.centerImg {
+  position: absolute;
+  width: 1920px;
+  height: 817px;
+  top: 0;
+  z-index: -1;
+  left: 0;
+}
+
+.play {
+  position: absolute;
+  width: 128px;
+  height: 129px;
+  top: 307px;
+  right: 468px;
+}

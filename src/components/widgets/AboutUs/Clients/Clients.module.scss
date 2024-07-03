@@ -1,0 +1,96 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.sliderWrapper {
+  position: relative;
+  width: 1296px;
+  overflow: 130px;
+  overflow: hidden;
+}
+
+.title {
+  color: var(--orange-light);
+}
+
+.slider {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 88px;
+  width: max-content;
+  align-items: center;
+  transition: 0.5s transform;
+  user-select: none;
+}
+
+.slide1 {
+  position: relative;
+  width: 160px;
+  height: 100px;
+}
+
+.slide2 {
+  position: relative;
+  width: 162px;
+  height: 100px;
+}
+
+.slide3 {
+  position: relative;
+  width: 136px;
+  height: 140px;
+}
+
+.slide4 {
+  position: relative;
+  width: 241px;
+  height: 100px;
+}
+
+.slide5 {
+  position: relative;
+  width: 233px;
+  height: 80px;
+}
+
+.swiper {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid var(--orange-light);
+  bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s opacity;
+}
+
+.swiperArrow {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  user-select: none;
+}
+
+.swiperArrow_rotated {
+  transform: rotate(180deg);
+}
+
+.swiperLeft {
+  left: -80px;
+}
+
+.swiperRight {
+  right: 240px;
+}
+
+.swiper_disabled {
+  pointer-events: none;
+  opacity: 0.2;
+}

@@ -1,0 +1,53 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+
+  width: max-content;
+}
+
+.title {
+  position: relative;
+  color: var(--orange-light);
+}
+
+.list {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, max-content);
+  gap: 24px;
+  padding-left: 10px;
+  flex-wrap: nowrap;
+  width: max-content;
+  transition: 0.5s transform;
+  transform: translateX(0px);
+}
+
+.listWrapper {
+  overflow: hidden;
+  position: relative;
+  width: 1320px;
+}
+
+.leftSwiper {
+  position: absolute;
+  left: -60px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.rightSwiper {
+  position: absolute;
+  right: -70px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.reviewButton {
+  text-transform: uppercase;
+  border-radius: 20px;
+  width: 300px;
+  height: 70px;
+  align-self: center;
+}

@@ -1,0 +1,17 @@
+.container {
+  position: relative;
+  border: 1px solid var(--orange-light);
+  border-radius: 20px;
+  padding: 24px;
+  width: 416px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.body {
+  color: var(--orange-light);
+  margin-top: 16px;
+  margin-bottom: 24px;
+}

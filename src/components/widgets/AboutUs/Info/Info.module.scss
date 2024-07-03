@@ -1,0 +1,52 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: max-content;
+  //   margin: 0 auto;
+  margin-top: 75px;
+}
+
+.title {
+  color: var(--orange-light);
+}
+
+.text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 856px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 24px;
+}
+
+.topImg,
+.bottomImg {
+  position: relative;
+  width: 306px;
+  height: 198px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.topImg {
+  transform: rotate(-5deg);
+}
+
+.bottomImg {
+  transform: rotate(5deg) translateX(69px) translateY(-20px);
+}
+
+.body {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+}

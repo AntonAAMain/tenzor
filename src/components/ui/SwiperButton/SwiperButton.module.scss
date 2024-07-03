@@ -1,0 +1,29 @@
+.swiper {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid var(--orange-light);
+  bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s opacity;
+}
+
+.swiperArrow {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  user-select: none;
+}
+
+.swiperArrow_rotated {
+  transform: rotate(180deg);
+}
+
+.swiper_disabled {
+  pointer-events: none;
+  opacity: 0.2;
+}
